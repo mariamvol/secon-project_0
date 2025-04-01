@@ -1,0 +1,9 @@
+@import url(./__lang-link/header__lang-link.css);
+
+.lang {
+    /*border: 1px white solid;*/
+    width: fit-content;
+    display: flex;
+    gap: 18px;
+}
+

@@ -1,9 +1,14 @@
  html {
     scroll-behavior: smooth;
+    background-color: #2A2C2F;
   }
   
   * {
     box-sizing: border-box;
+  }
+
+  .page {
+    display: grid;
   }
   
    body, .page, .header, .content, .description, .digits, .feynman, .kaufman, .footer {

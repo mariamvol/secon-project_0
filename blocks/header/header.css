@@ -8,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 28px 47px 0 49px;
+    overflow-y: hidden;
 }
 
 @media (min-width: 1281px) {

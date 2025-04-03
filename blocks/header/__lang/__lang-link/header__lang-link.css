@@ -1,12 +1,30 @@
 .header__lang-link {
-    max-width: 30px;
-    max-height: 28px;
     color: white;
     text-decoration: none;
     justify-self: end;
     margin-right: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .header__lang-link.active {
     text-decoration: underline;
+}
+
+@media (min-width: 321px) {
+    .header__lang-link {
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: normal;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__lang-link {
+    line-height: 20px;
+    font-size: clamp(8px, 5vw, 18px);
+    font-weight: normal;
+    }
 }

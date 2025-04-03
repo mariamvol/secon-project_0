@@ -7,3 +7,8 @@
     gap: 18px;
 }
 
+@media (max-width: 320px) {
+    .lang {
+        gap: clamp(4px, 6vw, 18px);
+    }
+}

@@ -1,0 +1,13 @@
+.lead__caption {
+    border: 1px white solid;
+    max-width: 158px;
+    color: white;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    justify-self: left;
+    
+    letter-spacing: 1.5px;
+    margin-top: 8px;
+}

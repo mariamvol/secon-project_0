@@ -4,3 +4,11 @@
 
     justify-self: start;
 }
+
+
+@media (max-width: 320px) {
+    .header__logo {
+    width: clamp(50px, 20vw, 142px);
+    height: auto;
+    }
+}

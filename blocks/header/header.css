@@ -2,7 +2,7 @@
 @import url(./__lang/lang.css);
 
 .header {
-    border: 4px white solid;
+    /*border: 4px white solid;*/
     max-height: 52px;
     display: flex;
     justify-content: space-between;

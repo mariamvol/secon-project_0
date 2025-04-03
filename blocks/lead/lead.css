@@ -4,6 +4,7 @@
 
 .lead {
     border: 3px white solid;
+    width: 100%;
     max-width: 984px;
     margin: 39px auto auto 49px;
     /*margin-top: clamp(39px, 4vw, 48px);
@@ -34,15 +35,8 @@
     }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
     .lead {
     margin: 48px 0 0 0;
-    }
-}
-
-@media (max-width: 320px) {
-    .lead {
-    margin: 48px 0 0 0;
-    max-height: 42px;
     }
 }

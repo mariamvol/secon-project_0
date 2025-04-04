@@ -8,3 +8,25 @@
     font-family: 'Inter', sans-serif;
     margin: 32px auto 64px auto;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .lead__subtitle {
+    margin: 32px auto 56px auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .lead__subtitle {
+    font-size: clamp(16px, 6vw, 30px);
+    line-height: clamp(20px, 6vw, 36px);
+    margin: 32px 64px 56px 64px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__subtitle {
+    font-size: clamp(6px, 6vw, 16px);
+    line-height: clamp(8px, 6vw, 20px);
+    margin: 16px 16px 40px 16px;
+    }
+}

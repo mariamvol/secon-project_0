@@ -11,3 +11,17 @@
     letter-spacing: 1.5px;
     margin-top: 8px;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .lead__caption {
+    margin: 8px auto auto 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+    font-size: clamp(4px, 6vw, 10px);
+    line-height: clamp(8px, 6vw, 14px);
+    margin: 6px auto auto 18px;
+    }
+}

@@ -6,36 +6,40 @@
     border: 3px white solid;
     width: 100%;
     max-width: 984px;
-    margin: 39px auto auto 49px;
-    /*margin-top: clamp(39px, 4vw, 48px);
-    margin-left: clamp(0px, 3.5vw, 49px);
-    margin-right: auto;
-    margin-bottom: auto;*/
+    margin-top: 39px;
+    margin-left: 49px;
+    margin-right: 247px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .lead {
-    margin: 39px auto auto 49px;
+        width: calc(100% - clamp(0px, 9.375vw, 295px));
+        margin-right: clamp(48px, 4.6875vw, 247px);
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .lead {
-    margin: 39px auto auto 49px;
+    
+    margin-top: 48px;
+    margin-left: calc((100vw - 769px) / 255 * 48);
+    margin-right: calc((100vw - 769px) / 255 * 48);
+
+    width: calc(100% - ((100vw - 769px) / 255 * 48 * 2));
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .lead {
-    margin: 48px 48px 0 48px;
+    margin: 48px 0 0 0;
     }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (max-width: 319px) {
     .lead {
     margin: 48px 0 0 0;
     }

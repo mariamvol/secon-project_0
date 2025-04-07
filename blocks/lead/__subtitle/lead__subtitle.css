@@ -19,7 +19,10 @@
     .lead__subtitle {
     font-size: clamp(16px, 6vw, 30px);
     line-height: clamp(20px, 6vw, 36px);
-    margin: 32px 64px 56px 64px;
+    margin-top: calc(16px + (100vw - 320px) * (16 / 447));
+    margin-right: calc(16px + (100vw - 320px) * (48 / 447));
+    margin-bottom: calc(40px + (100vw - 320px) * (16 / 447));
+    margin-left: calc(16px + (100vw - 320px) * (48 / 447));
     }
 }
 

@@ -1,0 +1,18 @@
+.intro__title {
+    /*border: 1px white solid;*/
+    color: white;
+    font-size: 54px;
+    line-height: 58px;
+    font-weight: 900;
+    margin: 0;
+    text-align: left;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .intro__title {
+    font-size: clamp(32px, 10vw, 54px);
+    line-height: clamp(35px, 10vw, 58px);
+    text-align: left;
+    justify-self: left;
+    }
+  }

@@ -1,0 +1,17 @@
+.intro__list {
+    /*border: 1px white solid;*/
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+    margin: 0;
+    justify-self: left;
+    padding: 0;
+    white-space: normal;       
+    word-break: break-word;
+}
+
+.intro__list .reg {
+    font-weight: normal;
+  }

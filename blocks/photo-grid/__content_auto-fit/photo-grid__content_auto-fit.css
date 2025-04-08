@@ -1,0 +1,3 @@
+.photo-grid__content_auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}

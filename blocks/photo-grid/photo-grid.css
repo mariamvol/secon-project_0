@@ -12,7 +12,7 @@
 
 @media (min-width: 1280px) {
     .photo-grid {
-      max-width: 1184px;
+      
       gap: 16px;
     }
 }

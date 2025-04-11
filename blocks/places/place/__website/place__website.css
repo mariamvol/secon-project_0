@@ -1,0 +1,18 @@
+@import url(./__url-heading/place__website__url-heading.css);
+@import url(./__link/place__website__link.css);
+
+.place__website {
+    /*border: 1px white solid;*/
+    display: flex;
+    flex-direction: column;
+    max-width: 456px;
+    gap: 12px;
+    grid-area: website;
+    
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__website {
+        align-self: start;
+    }
+}

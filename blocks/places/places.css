@@ -1,0 +1,28 @@
+@import url(./place/place.css);
+
+.places {
+    /*border: 1px red solid;*/
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 92px 148px;
+    row-gap: 80px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .places {
+        margin: 92px clamp(48px, calc((100vw - 1024px) * 0.392 + 48px), 148px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .places {
+        margin: 88px clamp(24px, calc((100vw - 768px) * 0.094 + 24px), 48px);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .places {
+        margin: 64px clamp(0px, calc((100vw - 320px) * 0.054), 24px);
+    }
+}

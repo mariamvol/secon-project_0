@@ -1,0 +1,20 @@
+@import url(./__paragraph/place__paragraph.css);
+
+.place__text {
+    /*border: 1px white solid;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    max-width: 484px;
+    width: 100%;
+    grid-area: text;
+    align-self: start;
+    margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__text {
+        max-width: none;
+        width: 100%;
+    }
+}

@@ -5,3 +5,7 @@
     font-weight: normal;
     margin: 0;
 }
+
+.place__website__link:hover {
+    opacity: 80%;
+}

@@ -1,0 +1,16 @@
+@import url(./__link/footer__link.css);
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+@media (max-width: 767px) {
+    .links {
+        gap: clamp(18px, calc(18px + (100vw - 320px) * 0.03125), 32px);
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

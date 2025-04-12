@@ -1,0 +1,12 @@
+.footer__copyright {
+    line-height: 14px;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .footer__copyright {
+        font-size: clamp(14px, calc(14px + (100vw - 320px) * 0.00435), 16px);
+    }
+  }

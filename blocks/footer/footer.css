@@ -1,0 +1,31 @@
+@import url(./__copyright/footer__copyright.css);
+@import url(./__links/links.css);
+
+.footer {
+    /*border: 1px white solid;*/
+    color: white;
+
+    max-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 48px 24px 48px;
+    overflow-y: hidden;
+}
+
+@media (max-width: 767px) {
+    .footer {
+        max-height: none;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        /* Плавные отступы */
+        margin-top: clamp(64px, calc((100vw - 320px) * 0.058 + 64px), 92px);
+        margin-bottom: 24px;
+        margin-left: clamp(16px, calc((100vw - 320px) * 0.066 + 16px), 48px);
+        margin-right: clamp(16px, calc((100vw - 320px) * 0.066 + 16px), 48px);
+    
+        /* Плавный gap */
+        gap: clamp(24px, calc((100vw - 320px) * 0.05 + 24px), 48px);
+    }
+  }

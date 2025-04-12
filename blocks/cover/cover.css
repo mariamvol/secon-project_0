@@ -1,6 +1,7 @@
 @import url(./__image/cover__image.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__text/cover__text.css);
+@import url(./__link/cover__link.css);
 
 .cover {
     display: flex;

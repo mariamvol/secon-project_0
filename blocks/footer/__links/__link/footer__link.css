@@ -1,0 +1,18 @@
+.footer__link {
+    text-decoration: none;
+    color: white;
+    line-height: 18px;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.footer__link:hover {
+    opacity: 80%;
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        font-size: clamp(16px, calc(16px + (100vw - 320px) * 0.01724), 24px);
+        line-height: clamp(18px, calc(18px + (100vw - 320px) * 0.01296), 24px);
+    }
+  }

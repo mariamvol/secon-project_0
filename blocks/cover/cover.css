@@ -1,0 +1,21 @@
+@import url(./__image/cover__image.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__text/cover__text.css);
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    background-image: url('./images/cover-trains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    width: 100%;
+    height: clamp(200px, 62.5vw, 740px); /* адаптивная высота */
+    padding: 0 16px;
+  
+    position: relative;
+  }
